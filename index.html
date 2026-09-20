@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Albertus Tejasukmana | Portfolio</title>
+  <meta name="description"
+    content="Portfolio of Albertus Tejasukmana — Computer Science student specializing in Machine Learning, Computer Vision, and Web Development." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Fira+Code:wght@400;500&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+  <nav class="navbar" id="navbar">
+    <div class="nav-container">
+      <a href="#home" class="nav-logo">AT<span class="dot">.</span></a>
+      <ul class="nav-links" id="nav-links">
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#skills" class="nav-link">Skills</a></li>
+        <li><a href="#projects" class="nav-link">Projects</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+      </ul>
+      <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <section class="hero" id="home">
+    <div class="hero-bg">
+      <div class="blob blob-1"></div>
+      <div class="blob blob-2"></div>
+      <div class="blob blob-3"></div>
+      <div class="grid-overlay"></div>
+    </div>
+    <div class="hero-content">
+      <div class="hero-badge">
+        <span class="badge-dot"></span>
+        Available for opportunities
+      </div>
+      <h1 class="hero-name">
+        <span class="greeting">Hi, I am</span>
+        <span class="name-highlight">Albertus<br>Tejasukmana</span>
+      </h1>
+      <p class="hero-role">
+        <span class="role-prefix">I build </span>
+        <span class="typewriter" id="typewriter"></span>
+        <span class="cursor-blink">|</span>
+      </p>
+      <p class="hero-desc">
+        Computer Science student passionate about <strong>Machine Learning</strong>, <strong>Computer Vision</strong>,
+        and building meaningful technology.
+      </p>
+      <div class="hero-actions">
+        <a href="#projects" class="btn btn-primary" id="view-projects-btn">View My Projects</a>
+        <a href="https://github.com/lxgann" target="_blank" class="btn btn-outline">GitHub</a>
+      </div>
+      <div class="scroll-indicator">
+        <div class="scroll-dot"></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="about">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">About Me</span>
+        <h2 class="section-title">Who am I?</h2>
+      </div>
+      <div class="about-grid">
+        <div class="about-text">
+          <p>I am <strong>Albertus Tejasukmana</strong>, a Computer Science student currently in my 4th semester. I am
+            passionate about using technology to solve real-world problems, from building intelligent computer vision
+            systems to crafting elegant web interfaces.</p>
+          <p>My journey in tech began with curiosity about how machines can see and understand the world. This led me to
+            explore deep learning frameworks, object detection models, and data-driven research methodologies.</p>
+          <div class="about-stats">
+            <div class="stat-item"><span class="stat-number">3+</span><span class="stat-label">Projects</span></div>
+            <div class="stat-item"><span class="stat-number">4th</span><span class="stat-label">Semester</span></div>
+            <div class="stat-item"><span class="stat-number">CS</span><span class="stat-label">Major</span></div>
+          </div>
+        </div>
+        <div class="about-card">
+          <div class="info-card">
+            <div class="info-icon">&#127891;</div>
+            <div><strong>Education</strong>
+              <p>Computer Science, Semester 4</p>
+            </div>
+          </div>
+          <div class="info-card">
+            <div class="info-icon">&#128187;</div>
+            <div><strong>Focus Areas</strong>
+              <p>Machine Learning, Computer Vision, Web Dev</p>
+            </div>
+          </div>
+          <div class="info-card">
+            <div class="info-icon">&#127758;</div>
+            <div><strong>Location</strong>
+              <p>Indonesia</p>
+            </div>
+          </div>
+          <div class="info-card">
+            <div class="info-icon">&#128235;</div>
+            <div><strong>GitHub</strong>
+              <p><a href="https://github.com/lxgann" target="_blank">github.com/lxgann</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section-alt" id="skills">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Skills</span>
+        <h2 class="section-title">What I work with</h2>
+      </div>
+      <div class="skills-grid">
+        <div class="skill-category">
+          <h3 class="skill-cat-title"><span class="skill-cat-icon">&#129504;</span> Machine Learning and AI</h3>
+          <div class="skill-pills">
+            <span class="pill">PyTorch</span><span class="pill">YOLOv8</span><span class="pill">Faster R-CNN</span><span
+              class="pill">Scikit-learn</span><span class="pill">TensorFlow</span><span class="pill">OpenCV</span>
+          </div>
+        </div>
+        <div class="skill-category">
+          <h3 class="skill-cat-title"><span class="skill-cat-icon">&#127760;</span> Web Development</h3>
+          <div class="skill-pills">
+            <span class="pill">React</span><span class="pill">FastAPI</span><span class="pill">Tailwind CSS</span><span
+              class="pill">JavaScript</span>
+          </div>
+        </div>
+        <div class="skill-category">
+          <h3 class="skill-cat-title"><span class="skill-cat-icon">&#9881;&#65039;</span> Languages and Tools</h3>
+          <div class="skill-pills">
+            <span class="pill">Python</span><span class="pill">Git and GitHub</span><span class="pill">Google
+              Colab</span><span class="pill">Jupyter Notebook</span><span class="pill">NumPy</span><span
+              class="pill">Pandas</span><span class="pill">Matplotlib</span><span class="pill">Figma</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="projects">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Projects</span>
+        <h2 class="section-title">Things I have built</h2>
+      </div>
+      <div class="projects-grid">
+
+        <div class="project-card featured" id="project-rm">
+          <div class="project-badge">Featured</div>
+          <div class="project-header">
+            <div class="project-icon">&#128678;</div>
+            <a href="https://github.com/lxgann/Project-RM" target="_blank" class="icon-link" title="GitHub">GitHub</a>
+          </div>
+          <h3 class="project-title">Traffic Violation Detection System</h3>
+          <p class="project-desc">Camera-based traffic violation detection using deep learning. Implemented and compared
+            <strong>YOLOv8</strong> vs <strong>Faster R-CNN</strong> for real-time object detection accuracy and speed
+            benchmarking.</p>
+          <div class="metrics-container">
+            <h4 class="metrics-title">Model Evaluation Results</h4>
+            <div class="metrics-table-wrapper">
+              <table class="metrics-table">
+                <thead>
+                  <tr>
+                    <th>Metric</th>
+                    <th>YOLOv8</th>
+                    <th>Faster R-CNN</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>Precision</td>
+                    <td>0.7986</td>
+                    <td class="winner">0.9770</td>
+                  </tr>
+                  <tr>
+                    <td>Recall</td>
+                    <td>0.7713</td>
+                    <td class="winner">0.9762</td>
+                  </tr>
+                  <tr>
+                    <td>F1-Score</td>
+                    <td>0.7848</td>
+                    <td class="winner">0.9759</td>
+                  </tr>
+                  <tr>
+                    <td>Inference Time</td>
+                    <td class="winner">6.48 ms</td>
+                    <td>32.60 ms</td>
+                  </tr>
+                  <tr>
+                    <td>FPS</td>
+                    <td class="winner">154.35</td>
+                    <td>30.68</td>
+                  </tr>
+                  <tr>
+                    <td>AUC (micro-avg)</td>
+                    <td>0.8367</td>
+                    <td class="winner">0.9851</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+          <div class="project-tags">
+            <span class="tag">Python</span><span class="tag">YOLOv8</span><span class="tag">Faster R-CNN</span><span
+              class="tag">Computer Vision</span><span class="tag">PyTorch</span>
+          </div>
+        </div>
+
+        <div class="project-card" id="project-ml">
+          <div class="project-header">
+            <div class="project-icon">&#129302;</div>
+            <a href="https://github.com/lxgann" target="_blank" class="icon-link" title="GitHub">GitHub</a>
+          </div>
+          <h3 class="project-title">Machine Learning Project</h3>
+          <p class="project-desc">Applied machine learning techniques for classification and prediction tasks. Focused
+            on data preprocessing, feature engineering, model training, and performance evaluation.</p>
+          <div class="project-tags">
+            <span class="tag">Python</span><span class="tag">Machine Learning</span><span
+              class="tag">Scikit-learn</span><span class="tag">Pandas</span>
+          </div>
+        </div>
+
+        <div class="project-card" id="project-se">
+          <div class="project-header">
+            <div class="project-icon">&#128736;&#65039;</div>
+            <a href="https://github.com/lxgann" target="_blank" class="icon-link" title="GitHub">GitHub</a>
+          </div>
+          <h3 class="project-title">Software Engineering Project</h3>
+          <p class="project-desc">Software engineering course project applying structured development methodologies,
+            including requirements analysis, system design, implementation, and testing phases.</p>
+          <div class="project-tags">
+            <span class="tag">Software Engineering</span><span class="tag">System Design</span><span
+              class="tag">HTML/CSS/JS</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <section class="section section-alt" id="contact">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Contact</span>
+        <h2 class="section-title">Let us connect</h2>
+        <p class="section-subtitle">I am always open to new opportunities, collaborations, or just a friendly chat about
+          tech!</p>
+      </div>
+      <div class="contact-grid">
+        <a href="https://github.com/lxgann" target="_blank" class="contact-card" id="contact-github">
+          <div class="contact-icon">GitHub</div>
+          <h3>GitHub</h3>
+          <p>github.com/lxgann</p>
+        </a>
+        <a href="https://www.linkedin.com/in/albertus-tejasukmana-876b83325/" target="_blank" class="contact-card"
+          id="contact-linkedin">
+          <div class="contact-icon linkedin-icon">LinkedIn</div>
+          <h3>LinkedIn</h3>
+          <p>Albertus Tejasukmana</p>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <p>Designed and Built by <strong>Albertus Tejasukmana</strong> 2026</p>
+      <p class="footer-sub">Made with HTML, CSS and JavaScript</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
